@@ -20,6 +20,7 @@ body {
 .header .header-info {
     font-size: 16px;
     font-weight: 700;
+    color: #F9FAF8;
 }
 
 .right-links {
@@ -32,10 +33,6 @@ ul {
     gap: 8px;
 }
 
-div {
-    color: #F9FAF8;
-}
-
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -43,7 +40,7 @@ a {
     padding: 0;
 }
 
-img {
+.content img {
     max-width: 250px;
 }
 
@@ -65,6 +62,7 @@ img {
 .content-description .short-info {
     font-size: 24px;
     font-weight: 700;
+    color: #F9FAF8;
 }
 
 .content-description .long-info {
@@ -80,4 +78,54 @@ button {
     padding: 8px;
     text-align: center;
     font-size: 12px;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+}
+
+.information-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 24px;
+}
+
+.information {
+    display: flex;
+    gap: 50px;
+}
+
+.set {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.set-info {
+    text-align: center;
+}
+
+.quote-body {
+    padding: 50px;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    margin: 0;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.author {
+    text-align: end;
+    font-weight: 600;
 }
