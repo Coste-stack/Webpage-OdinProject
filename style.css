@@ -5,6 +5,11 @@
     align-items: center;
 }
 
+.header .header-info {
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .right-links {
     display: flex;
     flex-direction: row;
@@ -21,3 +26,32 @@ a {
     margin: 0;
     padding: 0;
 }
+
+img {
+    max-width: 250px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    justify-content: space-between;
+}
+
+.content-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+
+.content-description .short-info {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.content-description .long-info {
+    max-width: 300px;
+}
+
